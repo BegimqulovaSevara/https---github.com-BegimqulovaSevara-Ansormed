@@ -1,3 +1,4 @@
+/* GLOBAL STYLESM, */
 *{
     box-sizing: border-box;
 }
@@ -24,13 +25,25 @@ a{
     padding: 12px 24px 12px 24px;
     color: #FFFFFF;
     background-color: #DE2E54;
-    border: 2px;
+    border: 2px solid #DE2E54;
     border-radius: 8px;
     font-family:  Roboto Condensed;
     text-transform: uppercase;
     font-size: 15px;
     line-height: 22.5px;
     letter-spacing: 2px;
+    transition: 0.4s;
+}
+.site-button:hover{
+    color: #DE2E54;
+    background-color:#FFFFFF;
+    border: 2px solid #DE2E54;
+}
+.site-button:active{
+    opacity: 0.6; 
+    color: #FFFFFF;
+    background-color: #DE2E54;
+
 }
 .fonts-class{
     height: 21px;
@@ -47,6 +60,16 @@ a{
     justify-content: space-between;
     align-items: center;
 }
+.header-logo-img{
+    color: #222222;
+    transition: 0.4s;
+}
+.header-logo-img:hover{
+    color: #DE2E54;
+}
+.header-logo-img:active{
+    opacity: 0.6;
+}
 .navigation-list{
     width: 497px;
     display: flex;
@@ -58,6 +81,14 @@ a{
 .site-navigation-link{
     color: #222222;
     text-transform: uppercase;
+    transition: 0.4s;
+}
+.site-navigation-link:hover{
+    color: #DE2E54;
+}
+.site-navigation-link:active{
+    color: #DE2E54;
+    opacity: 0.6;
 }
 /* Hero section */
 .hero{
@@ -73,6 +104,25 @@ a{
     color: #FFFFFF;
     width: 440px;
     height: 108px;
+}
+.hero-button{
+    padding: 12px 24px 12px 24px;
+    color: #FFFFFF;
+    background-color: #DE2E54;
+    border: 2px solid #DE2E54;
+    border-radius: 8px;
+    font-family:  Roboto Condensed;
+    text-transform: uppercase;
+    font-size: 15px;
+    line-height: 22.5px;
+    letter-spacing: 2px;
+    transition: 0.4s;
+}
+.hero-button:hover{
+    opacity: 0.6;
+}
+.hero-button:active{
+    opacity: 0.8;
 }
 /* Services section */
 .services{
@@ -136,6 +186,14 @@ a{
     padding: 12px 24px 12px 24px;
     border: 2px solid #FFFFFF;
     border-radius: 8px;
+    transition: 0.4s;
+}
+.cta-button:hover{
+    background-color: #DE2E54;
+    border: 0;
+}
+.cta-button:active{
+    opacity: 0.6;
 }
 /* Footer section */
 .footer{
@@ -143,6 +201,17 @@ a{
     padding-top: 24px;
     padding-bottom: 24px;
     background-color: #222222;
+}
+.footer-logo{
+    color: #FFFFFF;
+    transition: 0.4s;
+}
+.footer-logo:hover{
+    color: #DE2E54;
+}
+.footer-logo:active{
+    color:#FFFFFF;
+    opacity: 0.6;
 }
 .footer-navigation{
     width: 497px;
@@ -160,4 +229,12 @@ a{
 }
 .site-footer-link{
     color: #FFFFFF;
+    transition: 0.4s;
+}
+.site-footer-link:hover{
+    color: #DE2E54;
+}
+.site-footer-link:active{
+    color: #FFFFFF;
+    opacity: 0.6;
 }
