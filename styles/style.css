@@ -14,7 +14,6 @@ a{
     text-decoration: none;
 }
 .container{
-    width: 100%;
     max-width: 1400px;
     margin-left: auto;
     margin-right: auto;
@@ -50,7 +49,6 @@ a{
 }
 /* Header section */
 .header{
-    width: 1440px;
     height: 100px;
     padding-top: 24px;
     padding-bottom: 24px;
@@ -92,7 +90,6 @@ a{
 }
 /* Hero section */
 .hero{
-    width: 1440px;
     background-color: #0EB4C1;
 }
 .hero-title{
@@ -126,7 +123,6 @@ a{
 }
 /* Services section */
 .services{
-    width: 1440px;
     margin-top: 120px;
 }
 .services-section{
@@ -161,7 +157,6 @@ a{
 }
 /* CTA Section */
 .cta-section{
-    width: 1440px;
     height: 253px;
     margin-top: 120px;
     background-color: #0EB4C1;
@@ -197,7 +192,6 @@ a{
 }
 /* Footer section */
 .footer{
-    width: 1440px;
     padding-top: 24px;
     padding-bottom: 24px;
     background-color: #222222;
