@@ -14,11 +14,12 @@ a{
     text-decoration: none;
 }
 .container{
-    max-width: 1400px;
+    width: 100%;
+    max-width: 1200px;
     margin-left: auto;
     margin-right: auto;
-    padding-left:170px;
-    padding-right: 170px;
+    padding-left: 100px;
+    padding-right: 100px;
 }
 .site-button{
     padding: 12px 24px 12px 24px;
@@ -92,15 +93,28 @@ a{
 .hero{
     background-color: #0EB4C1;
 }
+.hero-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: end;
+}
+.hero-info-wrapper{
+    padding-bottom: 120px;
+}
 .hero-title{
+    margin: 0;
+    margin-bottom: 16px;
     color: #FFFFFF;
-    width: 500px;
-    height: 86px;
+    font-size: 36px;
+    line-height: 44px;
+    font-weight: 700;
 }
 .hero-paragraph{
+    margin-bottom: 36px;
     color: #FFFFFF;
-    width: 440px;
-    height: 108px;
+    font-size: 18px;
+    line-height: 27px;
+    font-weight: 400;
 }
 .hero-button{
     padding: 12px 24px 12px 24px;
@@ -121,6 +135,10 @@ a{
 .hero-button:active{
     opacity: 0.8;
 }
+.hero-img{
+    width: 423px;
+    height: 504px;
+}
 /* Services section */
 .services{
     margin-top: 120px;
@@ -138,6 +156,8 @@ a{
 .services-section-title{
     text-align: center;
     margin-bottom: 56px;
+    font-weight: 700;
+    font-size: 36px;
 }
 .services-section-paragraph{
     width: 600px;
@@ -169,6 +189,8 @@ a{
     padding-top: 60px;
     margin-bottom: 40px;
     text-align: center;
+    font-size: 36px;
+    font-weight: 700;
 }
 .link-button{
     display: flex;
